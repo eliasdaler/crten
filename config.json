@@ -1,0 +1,17 @@
+{
+  "shader": "crt-lottes",
+  "scale": 4,
+  "params": {
+    "HardScan": -10,
+    "HardPix": -4,
+    "WarpX": 0.01,
+    "MaskDark": 0.02,
+    "MaskLight": 1.5,
+    "ShadowMask": 0.0,
+    "BrightBoost": 1,
+    "HardBloomPix": -1.5,
+    "HardBloomScan": -2,
+    "BloomAmount": 0.05,
+    "Shape": 2.0
+  }
+}

@@ -1,0 +1,46 @@
+.body-itch {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.loading-text {
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     font-size: 2em;
+}
+
+ .loading-screen {
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background-color: black;
+}
+ .image-div {
+     position: absolute;
+     right: 24px;
+     bottom: 12px;
+     align-self: flex-end;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+ .image {
+display :block;
+width: 256px; height: auto;
+     image-rendering: -moz-crisp-edges;
+     image-rendering: -webkit-optimize-contrast;
+     image-rendering: crisp-edges;
+     image-rendering: pixelated;
+     margin-top: 40px;
+     -ms-interpolation-mode: nearest-neighbor;
+     backface-visibility: hidden;
+}
