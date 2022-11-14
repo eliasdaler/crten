@@ -23,6 +23,7 @@ Written with [Ebitengine](https://github.com/hajimehoshi/ebiten).
 
 ## License
 
-* assets/*.png - used with respective authors permission
+* assets/*.png - used in web demo, with respective authors permission. See `assets/metadata.json` for art details.
+* [m5x7 font](https://managore.itch.io/m5x7) by [Daniel Linsenn](https://twitter.com/managore) - "free to use but attribution appreciated"
 * crt-lottes - a port of public domain shader by Timothy Lottes. The license for it is still public domain. See the [original source](https://github.com/libretro/glsl-shaders/blob/master/crt/shaders/crt-lottes.glsl)
 * the program itself - GPLv3
