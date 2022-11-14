@@ -1,3 +1,5 @@
+// crten - Cathode-Ray Tube ENgine
+// Display/render pixel art with a CRT effect.
 package main
 
 import (
