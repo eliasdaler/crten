@@ -1,5 +1,5 @@
-# crten - Cathode-Ray Tube ENgine
-Display/render pixel art with a CRT effect. 
+# crten v0.1 - Cathode-Ray Tube ENgine
+Display/render pixel art with a CRT effect.
 
 ## Web demo / binaries download
 
@@ -16,9 +16,8 @@ Written with [Ebitengine](https://github.com/hajimehoshi/ebiten).
 ## Usage
 
 `crten IMAGE_FILE` - display INPUT_FILE with CRT effect.
-  
-`crten -i INPUT_FILE [-c CONFIG_FILE] OUTPUT_FILE` - renders INPUT_FILE image with CRT effect to OUTPUT_FILE and closes the window.
 
+`crten -i INPUT_FILE [-c CONFIG_FILE] OUTPUT_FILE` - renders INPUT_FILE image with CRT effect to OUTPUT_FILE and closes the window.
 
 
 ## License
