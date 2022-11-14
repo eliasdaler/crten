@@ -45,9 +45,6 @@ var imgFile []byte
 //go:embed m5x7.ttf
 var fontFile []byte
 
-//go:embed config.json
-var defaultConfig []byte
-
 type galleryImage struct {
 	Desc  string
 	Image *ebiten.Image
