@@ -34,18 +34,18 @@ var Shape float
 
 /*
 use instead of uniforms if you don't need runtime modifiability
-const hardScan = -8.0
-const hardPix = -3.0
-const warpX = 0.031
-const warpY = 0.041
-const maskDark = 0.5
-const maskLight = 1.5
-const shadowMask = 3.0
-const brightBoost = 1.0
-const hardBloomPix = -1.5
-const hardBloomScan = -2.0
-const bloomAmount = 0.05
-const shape = 2.0
+const HardScan = -8.0
+const HardPix = -3.0
+const WarpX = 0.031
+const WarpY = 0.041
+const MaskDark = 0.5
+const MaskLight = 1.5
+const ShadowMask = 3.0
+const BrightBoost = 1.0
+const HardBloomPix = -1.5
+const HardBloomScan = -2.0
+const BloomAmount = 0.05
+const Shape = 2.0
 */
 
 func ToLinear1(c float) float {
