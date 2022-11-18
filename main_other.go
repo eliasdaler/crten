@@ -67,5 +67,5 @@ func getImages() ([]galleryImage, error) {
 		return nil, err
 	}
 
-	return []galleryImage{{Desc: "'Master's House' by Elias Daler (@eliasdaler)", Image: img}}, nil
+	return []galleryImage{{Desc: "'The Cat and the Wizard' by Elias Daler (@eliasdaler)", Image: img}}, nil
 }

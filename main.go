@@ -53,7 +53,7 @@ type ShaderParam struct {
 //go:embed shaders/crt-lottes.go
 var shaderSrc []byte
 
-//go:embed assets/mastershouse.png
+//go:embed assets/cat_and_wizard.png
 var imgFile []byte
 
 //go:embed m5x7.ttf
@@ -516,7 +516,7 @@ func main() {
 		ebiten.SetWindowDecorated(false)
 		ebiten.SetWindowFloating(true)
 	} else {
-		ebiten.SetWindowTitle("CRT shader demo")
+		ebiten.SetWindowTitle(fmt.Sprintf("crten v%s", version))
 		ebiten.SetWindowResizable(false)
 	}
 	ebiten.SetWindowSize(ScreenX*g.defaultScale, ScreenY*g.defaultScale)

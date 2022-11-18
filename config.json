@@ -1,6 +1,6 @@
 {
   "shader": "crt-lottes",
-  "scale": 4,
+  "scale": 2,
   "params": {
     "HardScan": -10,
     "HardPix": -4,
